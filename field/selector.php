@@ -31,7 +31,7 @@ class SelectorField extends BaseField
      * @var string
      * @since 1.0.0
      */
-    protected $mode = 'single';
+    protected $mode = 'multiple';
 
     /**
      * Sort mode.
@@ -96,7 +96,7 @@ class SelectorField extends BaseField
      * @since 1.0.0
      */
     protected $defaultValues = array(
-        'mode'    => 'single',
+        'mode'    => 'multiple',
         'options' => 'all',
         'size'    => 'auto',
     );
